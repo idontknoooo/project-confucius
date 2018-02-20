@@ -1,17 +1,3 @@
-#!/bin/bash
-
-MAILTO=your@email.com
-
-####### SAVE VOL PARAMS TO JEREMYS DATABASE MINUTELY ##########   
-*/1 8-16 * * 1-5 source "/home/uemekli/.bashrc" ; python /home/uemekli/local/scripts/saveToJeremyDB.py --core-config  /var/ctp/uemekli/git/ctp_cfg/etc/prod/ctpcore.cfg > /home/uemekli/log/saveToJeremyDB.log 
-####### SEND PNL RECONCILIATION EMAIL ############# 
-20 08 * * 1-5 source "/home/uemekli/.bashrc" ; python /home/uemekli/local/scripts/pnl_rec.py >> /home/uemekli/log/pnl_rec.log 
-####### BOOK DELTA TRANSFERS  #################    
-20 16 * * 1-5 source "/home/uemekli/.bashrc" ; python /home/uemekli/local/scripts/transferDeltas.py --core-config  /var/ctp/uemekli/git/ctp_cfg/etc/prod/ctpcore.cfg > /home/uemekli/log/transferDeltas.log 
-29 16 * * 1-5 source "/home/uemekli/.bashrc" ; python /home/uemekli/local/scripts/transferDeltas.py --commit --core-config  /var/ctp/uemekli/git/ctp_cfg/etc/prod/ctpcore.cfg > /home/uemekli/log/transferDeltas.log
-####### INITIALIZE TICKERS #################
-00 03 * * 1-5 source "/home/uemekli/.bashrc" ; python /home/uemekli/vixrv/vixrv/scripts/run_request_marketprice.py -t UXUX >> /home/uemekli/log/marketprices.log
-
 # A. Crontab Reference 
 # http://www.adminschoice.com/crontab-quick-reference
 
@@ -20,6 +6,7 @@ MAILTO=your@email.com
 # crontab -l: List crontab file
 # crontab -r: Remove your crontab file
 # crontab -v: Display the last time you edited your crontab file 
+# export EDITOR=vim && crontab -e: Open crontab file with vim
 
 # C. Crontab Syntax 
 # *     *     *   *    *        command to be executed
