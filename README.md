@@ -7,3 +7,13 @@ This is a repository with different tutorials
 - Git tutorial extra - Intermediate Level 
 ## Crontab
 - Crontab in 10 mins - All in one
+## Top
+- Top
+## free
+- free -m 
+- free -g
+## tmux
+- Tmux tutorial - All in one
+## vim
+- Vim introduction
+- Vim plugins
