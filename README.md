@@ -17,3 +17,6 @@ This is a repository with different tutorials
 ## vim
 - Vim introduction
 - Vim plugins
+## gdb
+- How to use gdb
+## 
