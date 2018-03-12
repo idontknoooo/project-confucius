@@ -1,0 +1,2 @@
+:%!column -t # Separate each column by a table
+:%s/#/            #/g       # Separate comment to main body, then use `dw` to make it align
