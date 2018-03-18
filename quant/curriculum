@@ -1,0 +1,154 @@
+A. Prep
+1. Probability Prep
+Description: The objective of this course is to introduce the basic ideas and methods of calculus-based probability theory and to provide a solid foundation for other MSCF courses based on probability theory. Topics include basic results on probability and conditional probability, random variables and their distributions, expected values, moment generating functions, multivariate distributions, transformations of random variables and vectors, laws of large numbers and the central limit theorem.
+
+2. Math & Market Prep
+Description: This is in part a refresher course in calculus, covering some of the calculations that arise in subsequent MSCF courses, but it also covers related mathematics topics and helps students practice mathematical thinking and problem-solving skills. The course is setup as a problem-working seminar. Problems will be assigned and these and similar problems will be worked in class. The following is an example of the material you may see:
+
+Learn to accurately compute the limits, derivatives and integrals that arise in subsequent courses in the Master's program in Computational Finance. Problems will be chosen to emphasize the calculations that have caused students difficulties in these courses in the past.
+Practice formulating problems mathematically and solving brain teasers similar to those commonly asked in job interviews.
+The course will not present theory except as it is needed to do the assigned problems.
+
+3. Programming Prep
+Description: The Programming Prep course is intended to make sure that incoming MSCF students have a solid understanding of the basics of C++, up to the level of top-down, procedural programming and the use of some important C++ Standard Library classes.  Students will learn how to:
+
+Write, compile, and execute C++ programs using GNU C++ (MS Windows or Mac) as well as Visual Studio (on MS Windows) or X Code (on Mac)
+Declare and use fundamental type variables: char, int, double, unsigned
+Perform arithmetic computations and equality/relational/logical comparisons
+Write loops (while and for) and decisions (if/else and case)
+Define and call functions, with parameters and/or return values
+Declare and use arrays, and pass arrays as arguments to functions
+Produce formatted output to the user’s screen and to text files
+Use the string, vector, ifstream, ofstream, and other C++ Standard Library classes
+
+4. Communication Prep
+Description: To reach their highest potential, finance professionals must communicate well.  The communication course for the summer covers the basics of networking, interviewing, confrontation, the development of a personal narrative, and underlying aspects of communication including culture and neuro-messaging.  It does this by engaging students in role play, mock interviewing, creating an “elevator pitch” and building confidence.
+
+Students will learn to recognize body language and its effects in networking and interviewing
+Students will understand the cultural differences between Americans and other (high context) societies
+Students will review interviewing techniques and practice interviewing (including behavioral interviewing)
+Students will role play confrontation scenarios
+Students will understand how to construct a personal narrative and how to tell that story
+Students will write, and practice, their elevator pitch
+These intense sessions will focus on preparing students for the early decisions to be made by recruiters for coveted internships.  Successful completion of these sessions is a requirement for career services.
+
+5. Financial Markets
+Description: In two, two-hour lectures, students will receive an introduction to the balance sheet, income statement and statement of cash flows and will be presented with an overview of the financial markets. Required Text: "Financial Intelligence" by Karen Berman, 2006, ISBN 1-59139-764-2.
+
+6. Linear Algebra
+
+
+
+
+B. Year 1 | Mini 1
+1. Financial Data Science I
+Description: The first in a two-course sequence covering methods of extracting useful information from raw financial data. Focus is placed on tools of data exploration and mining, with particular emphasis on handling large and complex financial data sets. Topics include an overview of the R programming language, including how it can be used to work with “Big Data;” data cleaning; data visualization; natural language processing; nonparametric smoothing techniques; and unsupervised learning.
+
+2. Financial Computing I
+Description: In Financial Computing I -- Data Structures and Algorithms, we investigate a number of data structures and algorithms important in all programming work: singly and doubly linked lists, stacks, queues, heaps/priority queues, binary search trees, self-balancing trees, hash tables, sorting algorithms, breadth-first and depth-first graph search, and others.  Students will necessarily master the C++ mechanisms that support such programming: pointers, dynamic memory allocation, recursion, struct and simple class definitions, separation of headers and code files, and so forth.  Examples and homework exercises will be drawn from finance-related sources.
+
+3. Fixed Income
+Description: This course introduces the most important securities traded in fixed income markets and the valuation models used to price them. Payoff characteristics and quotation conventions will be explained for treasury bills and bonds, STRIPS, callable bonds, mortgage-backed securities, and derivative securities like swaps, caps, floors, swaptions, and options on bonds. Basic concepts will be explained such as the relation between yields and forward rates, duration, convexity, and factor models of yield curve dynamics. Key concepts for interest rate derivative valuation will be introduced using discrete time versions of the Ho-Lee and Black-Derman-Toy models. Text: Bruce Tuckman, Angel Serrat. "Fixed Income Securities," 3rd ed., (University Edition) ISBN# 0-470-90403-8 (paperback contains exercises) 0-470-89169-6 (hardcover does not contain exercises, but will be posted on course site).
+
+4. Investments
+Description: MSCF Investments gives students a foundation for quantitative portfolio management and for understanding market price determination.   Key concepts include risk measurement, risk-reward trade-offs, portfolio optimization, benchmarking, equilibrium asset pricing, market efficiency, and pricing anomalies.  Specific portfolio management tools include mean-variance optimization, CAPM and APT asset pricing, factor models (e.g., Fama-French), momentum strategies, and performance evaluation.  The course will present essential theories and formulas and will also review important institutional and empirical facts about equity, bond, and commodity markets.
+
+5. Business Communication I
+Description: The world's top financial organizations want the best communicators. Excellent communicators develop their skills through constant practice and craft. To that end, MSCF offers Business Communication 1 & 2. Business Communication 1 focuses on interviewing, networking, non-verbal language, and leadership communication, as well as the cultural influences that affect various business communication. The course immerses students in networking and interviewing through an interactive experience that includes role play, team exercises, many one-to-one interactions, mock interviews, and peer review. Other MSCF courses requiring written and spoken assignments link to this course. The MSCF Speakers Series is also connected to this course through selected writing/speaking assignments.
+
+6. Deutsche Bank Trading Competition
+Description: Using equity, fixed income and derivatives securities on a paper trading platform through Interactive Brokers, individuals trade and make markets. Deutsche bankers meet with students to conduct practice sessions in August at which time pre-trade trading strategies are submitted to Deutsche. The competition runs from late August to early October. At the conclusion of the competition, students submit a post-trade summary analysis. These pre- and post-strategy papers are evaluated by Deutsche Bank as qualitative factors in the awards decision along with the individual’s trading performance. The top three winners are awarded cash prizes (1st: $1,000; 2nd: $500; 3rd: $250) and are honored in the company of all trading participants and members of the MSCF Steering Committee at a reception hosted by Deutsche Bank in New York in October.
+
+C. Year 1 | Mini 2
+1. Financial Data Science II
+Description: The second in a two-course sequence covering methods of extracting useful information from raw financial data. Focus is placed on fundamental tools of statistical inference useful for fitting models to financial data, including those with complex multivariate form. Topics include parameter estimation, uncertainty quantification, resampling methods, copulas, Bayesian inference, hypothesis testing, and regression.
+
+2. Financial Computing II
+Description: In Financial Computing II – Object-Oriented, Generic, and Multi-Threaded Programming, we investigate these programming concepts and the C++ mechanisms that support them: classes, constructors/destructors, data members and member functions, operator overloading, static data members and member functions, inheritance, abstract classes and virtual functions, references, template functions, template classes, and threads.  As usual, examples and homework exercises will be drawn from finance-related sources.
+
+3. Options
+Description: The goal of the Options course is to develop tools to price and hedge and understand the risk exposures of any contingent claim on any underlying variable. The types of options considered include exchange-traded calls and puts, OTC exotic options, interest rate options, volatility derivatives, corporate securities such as callable bonds and warrants, and “real options” like power plants and mines. The option pricing techniques to be studied include binomial option pricing, Black-Scholes, Hull and White, and the option pricing super-theory known as risk-neutral valuation. Some specific topics are Geometric Brownian Motion and the mathematics of continuous-time stochastic processes; put-call parity and other arbitrage-free price option restrictions; Greeks; Monte Carlo Simulation; implied standard deviations and their statistical properties; exotic options; static and dynamic option replication trading strategies; and implied stochastic processes.
+
+4. Multi-period asset pricing
+Description: This course covers the theory of arbitrage-free pricing of derivativesecurities for multi-period financial models. The list of topics includes:
+
+Arbitrage and replication.
+Risk-neutral measures and martingales.
+Fundamental theorems of asset pricing.
+State and Markov processes.
+American options and optimal stopping.
+Backward induction.
+
+A complete set of lecture notes is provided. The book "Stochastic Calculus for Finance I: The Binomial Asset Pricing Model" by Steven Shreve is recommended for additional reading.
+
+D. Year 1 | Mini 3
+1. Statistical Machine Learning I
+Description: The first in a two-course sequence covering statistical machine learning aimed at quantitative finance.  The course covers tools and approaches for prediction, including both regression and classification.  The focus is on understanding the foundations of the methods so that they can be both applied and modified.  Topics include foundations of supervised learning, regularized regression, bias-variance tradeoffs, model validation and assessment, classification, and tree-based methods.
+
+2. Financial Computting III
+Description: In Financial Computing III – Python and Data Analysis, we investigate the Python programming language and several add-on modules that support statistical data analysis, visualization, web scraping, and the like: NumPy, SciPy, Pandas, Matplotlib, BeautifulSoup, and others. As usual, examples and homework exercises will be drawn from finance-related sources.
+
+3. Simulation Methods for Option Pricing
+Description: This course initially presents standard topics in simulation including random variable generation, variance reduction methods and statistical analysis of simulation output. The course then addresses the use of Monte Carlo simulation in solving applied problems on derivative pricing discussed in the current finance literature. The technical topics addressed include importance sampling, martingale control variables, stratification, and the estimation of the "Greeks." Application areas include the pricing of American options, pricing interest rate dependent claims, and credit risk.
+
+ 4. Stochastic Calculus I
+ Description: This course introduces martingales, Brownian motion, Ito integrals and Ito’s formula, in both the uni-variate and multi-variate case. This is done within the context of the Black-Scholes option pricing model and includes a detailed examination of this model. Prerequisite: Multi-Period Asset Pricing 46-941 and knowledge of calculus-based probability theory. Text: S. Shreve, Stochastic Calculus for Finance II: Continuous-Time Models, Springer-Verlag, New York, 2004.
+
+ 5. Business Communication II
+ Description: Financial professionals are overwhelmed with messages. Those messages that break through the clutter are well crafted and persuasive using techniques that are proven to grab attention, create interest and lead to action. Financial professionals who master these skills maintain productive business relationships and produce desired business outcomes. To that end, Business Communication 2 focuses on most forms of written and spoken communication. Students practice these crafts while pitching products and services, and writing powerful email and short form communication, such as blogs and social media. The class involves interactive activities including role play, team exercises, one-to-one interactions and peer review. Other MSCF courses also connect to this course through selected writing/speaking assignments.
+
+E. Year 1 | Mini 4
+1. Statistical Machine Learning II
+Description: The second in a two-course sequence covering statistical machine learning aimed at quantitative finance.  The course further covers methods for regression and classification, along with other advanced topics in statistics and machine learning.  Topics will be drawn from boosting and ensemble methods, support vector machines, mixture models and topic modeling, natural language processing, Markov decision processes and reinforcement learning, and neural networks including the basic ideas underlying deep learning.
+
+2. Risk Management I
+Description: This course will present a basic treatment of two important dimensions of risk management: market risk and credit risk. It will cover basic topics such as the regulatory environment and BASEL accords; risk measures including value-at-risk and shortfall risk and approximations for these risk measures; coherent risk measures; and extreme value distributions leading to the generalized Pareto distribution. Simulaiton methods will be developed to efficiently calculate the risk associated with a portfolio of derivative securities, a portfolio of defaultable bonds, and nested simulations needed to perform stress tests or assess risk over longer time periods. The course will also address important aspects of credit risk including the pricing of credit derivatives such as CDS and CDO, counterparty credit risk and Credit Valuation Adjustment (CVA). Senior risk management practitioners will present some material.
+
+3. Stochastic Calculus II
+Description: This course treats applications of risk-neutral pricing, especially the theory of interest-rate term structure models. The underlying methodology is change of measure. Both risk-neutral and forward measures are used. Models covered include Ho-Lee, Hull-White, Cox-Ingersoll-Ross, and Heath-Jarrow-Morton. Other topics are forwards and futures, models for foreign exchange, and options that permit early exercise. Texts: S. Shreve, Stochastic Calculus for Finance II: > Continuous-Time Models, Springer-Verlag, 2004
+
+4. Presentations for Computational Finance
+escription: You are never more visible in a financial organization than when you present. Clients and top management make conscious and unconscious decisions about your capabilities based upon your ability to communicate your ideas persuasively and succinctly. This course provides intensive training and practice in planning, preparing, and delivering the financial arguments your audiences will demand. The course also gives you extensive feedback on your vocal and non-verbal delivery skills, allowing you to project the image of a confident, polished financial professional. Recommended textbook: Persuasive Communication: How Audiences Decide by Richard O.Young, New York: Routledge, 2017.
+
+F. Year 2 | Mini 1
+1. Financial Optimization
+Description: Optimization models play an increasingly important role in financial decisions. Many computational finance problems ranging from asset allocation to risk management, from option pricing to model calibration, can be efficiently solved using modern optimization techniques. This course covers several classes of optimization models (linear, quadratic, stochastic, and dynamic optimization) encountered in financial contexts. For each model class, after a survey of the relevant theory and solution methods, we will discuss problems in mathematical finance that are amenable to that problem class.
+
+Two of the main assignments in the course are team projects involving real data. These projects are simplifications of problems faced by practitioners. The first project is a bond portfolio construction for a pension fund. For the second project, several possible topics will be suggested. On the last day of classes some teams will present the highlights of their project in class.
+
+The main reference for the course will be: "Optimization Methods in Finance" 2nd edition by G. Cornuejols, J. Pena, and R. Tutuncu.  A pdf copy of the relevant chapters of the book will be made available to the students
+
+2. Financial Time Series Analysis
+Description: This course introduces time series methodology to the MSCF students. Emphasis will be placed on the data analytic aspects related to financial applications, with a view toward development of quantitative trading strategies. Topics studied in this course include univariate ARIMA modeling, forecasting, seasonality, model identification and diagnostics. In addition, GARCH and stochastic volatility modeling will be covered. At the end of the course, trading strategy development based on these models will be discussed. Reference texts (not required): Brockwell & Davis, Introduction to Time Series and Forecasting, 2nd edition, Springer (2002); N.H. Chan, Time Series: Applications to Finance, Wiley (2002).
+
+3. MSCF Studies in Financial Engineering
+Description: This is a course about using Financial Engineering to solve practical risk management and trading problems and about the sales process for selling derivative deals. The focus is on designing and pricing derivative securities to trade on and hedge customized risk exposures – particularly those involving non-linear, path-dependent, and/or multi-variable exposures to interest rates, equity prices, credit events, and commodity prices, –pitching these exotic securities to clients, and managing any associated risks. The valuation tools used to price these derivatives are Risk Neutral Valuation and Monte Carlo Simulation. The course also highlights practical issues about model calibration, model risk, and dynamic hedging. The highlight of the course is a series of in-class team case presentations. While pricing and hedging techniques are important, so too are practical issues such as deciding which risks to share contractually and knowing how to pitch a derivative deal. The in-class presentations are a chance to practice standing in front of a client or boss and sell/explain complicated structured products.
+
+4. Advanced Derivative Models | Elective
+Description: Building on the theory developed in Math 46945: Stochastic Calculus II, this course treats advanced models and methods for derivative pricing. This includes a detailed discussion of local and stochastic volatility models, and the analytical and computational techniques that make pricing and model calibration tractable in these settings.
+
+Text: J. Gatheral, “The Volatility Surface: A Practitioner’s Guide”, Wiley, 2006.
+
+5. Numerical Methods
+Description: This course covers numerical methods relevant to solving the partial differential equations of mathematical finance. Theoretical and practical issues are treated. Topics include (but are not limited to): background material in partial differential equations, examples of exact solutions including Black Scholes and its relatives, finite difference methods including algorithms and question of stability and convergence, treatment of near and far boundary conditions, the connection with binomial models, interest rate models, early exercise, and the corresponding free boundary problems, and a brief introduction to numerical methods for solving multi-factor models.
+
+6. Risk Management II
+Description: This course will cover in detail several risk management topics that have become indispensable since the financial crisis.  These include the concept Credit Valuation Adjustment (CVA), Debit Valuation Adjustment (DVA), and collateralization/ margining. Also included will be a discussion of economic and regulatory capital. The distinguishing feature of the course is that these quantities will be computed for a simple portfolio using Monte Carlo simulation in a reasonably realistic model. Some Material will be presented by senior practitioners. Reference text: L.Andersen and V.Piterbarg, “Interest Rate Modeling.”
+
+G. Year 2 | Mini 2
+1. Macro For Computational Finance
+Description: This course will provide students with tools to analyze the macroeconomic environment. Students will learn how to use economic theory in making short run forecasts of security prices and interest rates, and why particular attention is paid to economic variables such as initial jobless claims and inflation expectations. The course will provide the theory for evaluating how central bank and government policy affect the macroeconomy.
+
+2. Asset Management
+Description: Assets earn high returns (risk premiums) to compensate owners for the losses they incur during bad times, i.e., because of their exposure to underlying factor risks. Identifying the relevant factors for different asset classes (e.g., equities, bonds, currencies, commodities, hedge funds, private equity) and the bad times associated with each of them constitute the central ingredients in asset allocation decisions. This course adopts a factor-based approach to asset management. You will learn about the major risk factors for different asset classes that have been identified in academic research; use statistical methods to cross-validate the existence of premiums associated with these factors; construct optimized portfolios based on underlying factor models for investors with different preferences; and backtest the performance of these portfolios using several decades of historical data. We will also discuss whether alternative investment vehicles like hedge funds indeed represent separate asset classes or exposure to the same risk factors driving standard asset classes (like equities).
+
+3. Financial Computing IV
+Description: The goal of this course is to refresh and expand your knowledge of several important topics of the Master Program, such as Object Oriented Programming with C++, theory of pricing and hedging of derivative securities, numerical analysis and stochastic calculus. The course is organized around a project of design and implementation of a powerful C++ library for pricing of derivative securities. You will learn important principles of implementation of financial models and master algorithms of evaluation of different types of derivative securities: European, American, standard, barrier and path dependent options on stocks and interest rates.
+
+4. Market Microstructure & Algorithmic Trading
+Description: Trading is central to the investment process. This course will present foundational concepts and current developments relating to trading in financial markets including algorithmic and high frequency strategies, optimal order execution, execution quality analysis, the operation of limit order markets, the regulatory and institutional landscape, programming and IT infrastructure, and the economics of market microstructure. The course will specifically consider trading in fixed income and futures markets as well as in equity markets. Course assignments will utilize actual transactions and order flow data.
+
+5. Statistical Arbitrage
+Description: This course will provide students with the basic concepts and techniques for statistical-based trading. It will present some of the standard approaches to statistical arbitrage including market neutral strategies such a pairs trading, value-based or contrarian methods, momentum-based strategies, cointegration-based trading, algorithmic and high-frequency trading. The course will address how to search for statistical arbitrage strategies based on short term and long-term patterns as well as multi-equity relationships. The course material will be drawn from the finance literature, and some material will be presented by professional hedge fund traders. Student will do projects that implement the statistical arbitrage concepts presented in the course.
+
+
