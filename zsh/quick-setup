@@ -1,0 +1,8 @@
+install zsh
+install oh-my-zsh
+change shell to zsh: chsh -s $(which zsh) 
+Restart!!!
+copy paste ~/.zshrc from me
+go to ~/.oh-my-zsh/themes
+change 'PROMPT' of aussiegeek.zsh-theme
+done!

@@ -1,0 +1,4 @@
+Download vundle
+copy ~/.vimrc
+in vim: PluginInstall
+install colorthemes
