@@ -18,3 +18,11 @@ git branch -D branch-name
 
 git pull # pull from remote 
 git pull --rebase # pull from remote and make local append to remote HEAD
+
+
+# Private branch
+# You can make a branch locally and make dev
+# To hide your branch, you will need to always 'commit' your lastest version before your switch branch, but never 'push' your branch. Otherwise you will publish your branch.
+
+
+# To work without conflict: Work with different folder
