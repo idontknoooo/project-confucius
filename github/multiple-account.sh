@@ -18,7 +18,7 @@ cat ~/.ssh/id_rsa_personal.pub
 
 # Configure '~/.ssh/config'
 vim ~/.ssh/config
-Host github
+Host github                     # MARK-C!
 	HostName github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa
@@ -38,6 +38,8 @@ git commit -m "test"
 git config user.email "first-email"
 git config user.name "your-username"
 git remote add remote-name git@github.com:username/some-repo.git
+# or Use MARK-C
+# git remtoe add remote-name git@github:username/some-repo.git
 git push remote-name master
 
 # make some test on SECOND account
@@ -49,8 +51,8 @@ git commit -m "test"
 git config user.email "second-email"
 git config user.name "your-second-username"
                               # Must be same as MARK-B
-			  #git@MARK-B/some-repo.git
-git remote add remote-name git@github-personal/some-repo.git  
+			  #git@MARK-B:usernameABC/some-repo.git
+git remote add remote-name git@github-personal:usernameABC/some-repo.git  
 git push remote-name master
 
 # All DONE!!!!!!!!!!!!!!!!!
