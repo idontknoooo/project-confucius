@@ -1,0 +1,54 @@
+https://www.bittiger.io/livecourses/bi7s682L4vHGpPEiX/ebook/58ed620db8aa5b615f72bafc/prep.html
+
+Hardware: CPU, Interconnect, Memory
+To improve spead:
+1. Cache 缓存: 减少cpu的读取时间，比内存快很多
+  memory hierachy
+  locality principle
+  cache coherence
+  false sharing
+  cache effectiveness
+2. Out-of-order execution 乱序执行: 使pipeline满负荷执行
+  pipelined architecture
+  pipeline hazards
+  instruction re-ordering
+晶体管在提升，但是cpu性能并没有相应的提升, 于是有了多核cpu的使用。为了使多核cpu更加有效的利用，需要了解parallelization平行协调和synchronization同步.
+
+把访问速度较快的存储单元作为访问速度较慢的存储单元的缓存。虚拟内存把硬盘作为存储空间，把内存作为硬盘的缓存，以提高cpu的读取速度。 
+
+Locality: https://zh.wikipedia.org/wiki/访问局部性
+  Programs that repeatedly reference the same varaibles enjoy good temporal locality.
+  Programs that reference a varaible, then also likely to reference varaibles stored in nearby memory locations enjoy good spatial locality.
+
+int sumvec(int[] v){
+  int sum = 0;
+  for(int i = 0; i < v.length; ++i){
+    sum += v[i];
+  }
+  return sum;
+}
+
+sum: has temporal locality
+v  : has spatial locality
+
+// 单核
+cache line: 对应的缓存-内存单元会替换
+// 多核
+cache coherence: 缓存一致性 false sharing 会减弱缓存的有效性
+
+Out-of order execution
+Instruction fetch (IF): Fetch instructions from memory 
+Register fetch (RF): fetch operands from registers 
+Execute (EX): execute the instruction
+Memory access (MEM): Load/save data from/to memory
+Register write-back (WB): Write result back to memory
+
+single-cycle processors:
+- In single-cycle processors, an entire instruction is executed in a single CPU cycle. 在单循环处理器里，每条指令需要一个cpu cycle，是串形的，乱序不能提高速度。
+- In pipelined processors，each functional unit works independently and does each job in a single CPU cycle. 在pipeline的处理器中，每个功能单元是独立的，会将返回的结果传给下一个功能单元，这样乱序执行可以提高速度并实现Instruction level parallelism (ILP).
+- In pipeline processors, 1 cpu cycle is much shorter, can still execute one instruction per cycle when pipelien is full.
+ 
+pipeline hazards: some situations prevent the next instruction from executing in the next CPU cycle. 
+Data hazard: An instruction depends upon the result of an earlier instuctions.
+Feed forward: make next instruction get data before write to pipeline, this will avoid data hazard, but not always work. 
+
