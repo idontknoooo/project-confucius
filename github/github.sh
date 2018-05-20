@@ -26,3 +26,13 @@ git pull --rebase # pull from remote and make local append to remote HEAD
 
 
 # To work without conflict: Work with different folder
+
+# How to hide your local branch (branch availble only for local user)
+# The main idea is: Do NOT push branch!
+git branch localdev # Create a new branch that will only availble for local user
+# Add new file and more operation
+touch newfile
+git add . # Add branch
+git commit -m "commit message" # Commit change
+git checkout master 
+# Other people will only see there is 1 master branch, no one except this machine can view "localdev" branch
