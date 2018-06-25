@@ -1,0 +1,49 @@
+1. https://gist.github.com/andreyvit/2921703
+2. Session is a set of windows, plus a notion of which window is current.
+3. Window is a single screen covered with panes. (Once might compare it to a ‘virtual desktop’ or a ‘space’.)
+4. Pane is a rectangular part of a window that runs a specific command, e.g. a shell.
+
+https://gist.github.com/afair/3489752
+Session: A set of windows (a set of tabs)
+Windows: A tab in terminal
+Pane: A section in one tab
+
+tmux new -s session_name // start a new session
+tmux ls // list session|window|pane
+tmux kill-session -t session_name // kill a session
+Pre-command: Ctrl+b
+// Session
+s // list session 
+$ // name session
+// Window
+c // create window
+w // list window
+n // next window
+p // previous window
+, // name window
+& // kill window
+// Pane
+% // vertical split
+" // horicontal split"
+o // swap pane
+q // show pane numbers
+x // kill pane
+! // convert pane to window
+{ // previous pane
+} // next pane
+// Select pane
+    press+release ctrl+b then arrow keys
+// Resize pane
+    hold ctrl+b use arrow keys
+    
+// Set 256 Color and start with flag -2
+Ctrl+b
+set -g default-terminal "screen-256color" // Set 256 color in tmux
+tmux -2 new -s session_name // Start session
+
+// Scroll 
+Ctrl+b 
+[
+Arrow key
+// Quit Scroll mode
+q

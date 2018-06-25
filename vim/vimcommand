@@ -1,0 +1,100 @@
+# Screenkey 
+https://github.com/KeyboardFire/mkcast
+sudo apt-get screenkey
+screenkey
+pkill screenkey
+# Screen record
+sudo apt install gtk-recordmydesktop 
+gtk-recordmydesktop # start gui
+ctrl+alt+s # stop
+
+# Switch between window inside vim
+Ctrl+W + H/J/K/L
+
+# Comment a block
+v+h/j/k/l # to select blocks
+: # press :
+norm i// # normal insert // comment sign
+
+# Comment Other Ways
+:60, 70s/^/#  # comment line 60,70 inclusive by substitude
+:60, 70s/^#/  # uncomment
+ctrl+V, x # enter visual mode then delete first character
+# Search forward in vim
+/
+# Search backward in vim
+?
+# Jump search result
+	# Jump next
+	n
+	# Jump previous
+	N #shift+n
+# Cancel search highlight until next search
+:noh
+
+# Up down with each line 
+gj # down
+gk # up
+
+# Begin of sentence
+(
+# End of sentence
+)
+
+# Find char in this sentence
+f+'char'+';' # find 'char'. ';' meaning next appearance
+F # find backwards
+
+# Till char
+t+'char'+';' # jump before 'char'. ';' next appearance
+T # till backwards
+
+# Next similar indent
+'#' # next indent
+
+# Previous similar indent
+'*' # previous indent
+
+# Uppercase
+select+gU
+# Lowercase
+select+gu
+
+# Scrolls & Jumps
+H # move cursor to top of screen
+M # move cursor to middle of screen
+L # move cursor to bottom of screen
+Ctrl+D # move half-page down
+Ctrl+U # move half-page up
+Ctrl+B # move page up
+Ctrl+F # move page down
+Ctrl+Y # scroll up one line
+Ctrl+E # scroll down one line
+
+= # Auto indent, select then =+enter
+
+# indent
+visual select + >
+# unindent 
+visual select + <
+
+# Increment Number, when cursor at a number. Otherwise, it will change the first number it find
+ctrl + a
+# Decrement Number
+ctrl + x
+# Copy to clip board
+"+yy # yank whole line to register
+"+p # paste clip board also register
+virtual_select "+y # copy to clip board
+shift + insert # or paste from register
+# or ctrl+shift+v
+
+# Repalce old by new globally
+:%s/old/new/g
+# Auto complete
+ctrl+n (insert mode) # Next option 
+ctrl+p (insert mode) # Next option 
+ctrl+l (insert mode) # line completion
+# Insert mode deletion
+ctrl-w # Delete previous word
+ctrl-u # Delete everything before cursor of current line

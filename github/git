@@ -1,0 +1,67 @@
+#http://rogerdudler.github.io/git-guide/index.html
+1. Fork: Make a copy of others repo in you github so that your change won't affect others code.
+2. Pull: (or git fetch + git merge) It will update your local copy of your project with the remote repository's changes (if any) then if you do git status, you will see up-to-date.
+3. Clone: Download a repo from github to local.
+
+1. Add: Add a file to staging area
+2. Commit: Commit file at staging area to a ready area
+3. Push: Push 'ready area' files to repo
+
+Workflow: 
+1. git clone repo_address # use git clone to download repository from github
+2. modify
+3. git add filename # use git add to add file to stage
+# git reset -> cancel git add
+4. git commit -m "Comment here" # use git commit to commit files at stage area
+5. git remote add origin repo_address # use git remote add to add a name 'origin' for repo_address # 'origin' just an alias to that repo (can change 'origin' to repo's name) # When forked a repo, 'origin' is the default alias
+6. git push -u origin master # use git push to add change in origin repository master branch, -u set tracking upstream reference
+# git push -f -> force overwrite repo by local 
+7. git pull repo_address# use git pull to fetch and merge changes
+
+Useful Commands:
+1. git config --list # list all config
+2. git add -help # check help book for 'git add'
+3. git init # initialize directory for git
+4. git status # check status
+5. .gitignore # a file contains filenames which will be ignored by git commands
+6. git log # check tracking log of git
+7. git config --global user.name "idontknoooo" # setup username
+8. git config --global user.email "jordan50zuo@gmail.com" # setup email address
+9. git branch # show all branches of code | swith branch | create new branch
+10. git merge # git merge <branch_name> merges | the branch branch_name with
+# current branch | merge other branch into current branch
+11. git branch -D branch_name # delete a branch
+12. git commit --amend -m "new message" # edit last committed message
+13. git rebase -i HEAD~3 # give the 3rd latest commit message to edit, use 'reword' in interface
+14. git reset HEAD~ # cancel commit
+15. git commit -F ~/.gitmessage -e # edit template commit file using vim and commit
+16. git commit -F ~/.ucommit -e # commit using udacity commit style
+17. git remote -v # Check directory repo url
+# Udacity Commit style example
+# feat: Summarize changes in around 50 characters or less
+# 
+# More detailed explanatory text, if necessary. Wrap it to about 72
+# characters or so. In some contexts, the first line is treated as the
+# subject of the commit and the rest of the text as the body. The
+# blank line separating the summary from the body is critical (unless
+# you omit the body entirely); various tools like `log`, `shortlog`
+# and `rebase` can get confused if you run the two together.
+# 
+# Explain the problem that this commit is solving. Focus on why you
+# are making this change as opposed to how (the code explains that).
+# Are there side effects or other unintuitive consequenses of this
+# change? Here's the place to explain them.
+# 
+# Further paragraphs come after blank lines.
+# 
+#  - Bullet points are okay, too
+# 
+#  - Typically a hyphen or asterisk is used for the bullet, preceded
+#    by a single space, with blank lines in between, but conventions
+#    vary here
+# 
+# If you use an issue tracker, put references to them at the bottom,
+# like this:
+# 
+# Resolves: #123
+# See also: #456, #789

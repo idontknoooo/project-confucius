@@ -1,0 +1,57 @@
+# Search in Terminal 
+Ctrl + Shift + f
+# Paste in terminal
+Ctrl + Shift + v
+# Change visudo default editor
+sudo update-alternatives --config editor
+# Open terminal use terminal
+xdotool key ctrl+shift+n
+# Hacker like animation
+cmatrix
+# Hollywood terminal
+hollywood
+# Screenfetch: make terminal prettier
+# add 
+screenfetch # in .bashrc file
+# figlet
+showfigfonts
+# http://mewbies.com/acute_terminal_fun_02_view_ascii_art_ansi_art_and_movies_on_the_terminal.htm#cmatrix
+# Weather in linux
+curl wttr.in/your_location
+# Color
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+printf "I ${RED}love${NC} Stack Overflow\n"
+# Bash
+vim .bashrc
+# Shorten the directory name
+PS1='\u:\W\$ ' 
+https://askubuntu.com/questions/145618/how-can-i-shorten-my-command-line-bash-prompt
+# curl -> See URL
+curl 'http://...'
+curl -L 'http://google.com' # show full link source
+curl -o google.html -L 'http:google.com' # store full link source in file
+# cat
+# less: show 1 screen of file
+less filename # use space_key to scroll down, / to search, b to go back, q to quit
+# rm -i -> interactive mode
+rm -i importantfile
+# grep
+grep keyword filename
+grep keyword filename | less # pipe output to less command
+# wc wordcount
+wc filename
+wc -l filename # count lines
+# environement variable
+$PATH
+$LINES
+$COLUMNS
+PATH=$PATH:/new/dir # reassign PATH
+# mannual
+man zsh # check zsh mannual
+# baskrcgenerator.com
+# alias
+alias ll='ls -la'  # assign alias
+alias # check all alias
+# New tab in Terminal
+Ctrl+Shift+T

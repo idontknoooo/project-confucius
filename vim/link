@@ -1,0 +1,43 @@
+5 个针对有经验用户的 Vim 实用技巧
+https://linux.cn/article-8148-1.html
+超酷的 Vim 搜索技巧
+https://linux.cn/article-8288-1.html
+如何优雅地使用 VIM 文件管理插件 NERDTree
+https://linux.cn/article-7424-1.html
+Vim 自动补全神器：YouCompleteMe
+https://linux.cn/article-6312-1.html
+文本三巨头：zsh、tmux 和 vim
+https://linux.cn/article-5399-1.html
+为Bash和VIM配置一个美观奢华的状态提示栏
+https://linux.cn/article-5249-1.html
+如何将Vim打造成一个成熟的IDE
+https://linux.cn/article-3314-1.html
+跨越终端中多个vim实例访问剪切板内容
+https://linux.cn/article-2751-1.html
+开发者的实用 Vim 插件（一）
+https://linux.cn/article-7901-1.html
+开发者的实用 Vim 插件（二）
+https://linux.cn/article-7909-1.html
+开发者的实用 Vim 插件（三）
+https://linux.cn/article-8367-1.html
+Vim 起步的五个技巧
+https://linux.cn/article-7643-1.html
+一些不起眼但非常有用的 Vim 命令
+https://linux.cn/article-4669-1.html
+C编程vim初步配置
+https://linux.cn/article-3330-1.html
+一起来说 Vim 语
+https://linux.cn/article-6610-1.html
+终端至上！将Vim打造成全新的集成开发环境！
+https://linux.cn/article-2355-1.html
+
+.vimrc
+vundle
+tmux
+
+nerdtree
+fugitive
+syntastic
+ctrlp
+youcompleteme/supertab
+tagbar/taglist

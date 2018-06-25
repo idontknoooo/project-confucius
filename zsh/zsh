@@ -1,0 +1,15 @@
+# Color guide
+# https://misc.flogisoft.com/bash/tip_colors_and_formatting
+# theme directory
+cd ~/.oh-my-zsh/themes
+# current directory in aussiegeek.zsh-theme
+%c
+# Time
+%t
+# name of current user 
+%n
+# name of machine
+%m
+# color something
+$fg_bold[blue] something
+

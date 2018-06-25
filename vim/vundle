@@ -1,0 +1,4 @@
+:PluginList # Show all plugins
+:PluginInstall # install all plugin in Plugin 'xxx/xxx'
+:PluginUpdate # Update all plugin
+
