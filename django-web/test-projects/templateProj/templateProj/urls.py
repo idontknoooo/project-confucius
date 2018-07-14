@@ -21,5 +21,6 @@ from templateApp import views
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^templateApp/', include('templateApp.urls')),  # urls.py in templateApp
-    path('admin/', admin.site.urls),
+    url(r'admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
 ]
