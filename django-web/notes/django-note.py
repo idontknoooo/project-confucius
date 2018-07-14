@@ -27,3 +27,12 @@ from first_app import views
 urlpatterns = [
     url(r'^$', views.index, name='index'),
 ]
+
+# 6. Template: allows you to inject dynamic content that your Django App's views will produce, effecting the final HTML
+#   a. setup: project/templates/first_app
+#   b. Let Django know of the templates by editing the DIR key inside of the TEMPLATES dictionary in the settings.py file. Use python OS module to generate file path
+#   c. Use 'render()' function inside of our views.py file
+
+
+# 7. How to use template?
+#   Make sub-directory under 'templates' for each application. Then use 'os' to let Django know the location of templates. Then in application 'views.py' use 'render' to inject the object to template where you have the 'injection tag {{}}' in 'templates/app' directory.
