@@ -5,7 +5,7 @@
 '''
 
 # 3. Start a new app
-''' python manage.py projectName appName
+''' python manage.py startapp appName
 '''
 
 # 4. Start server
