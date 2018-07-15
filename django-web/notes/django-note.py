@@ -36,3 +36,19 @@ urlpatterns = [
 
 # 7. How to use template?
 #   Make sub-directory under 'templates' for each application. Then use 'os' to let Django know the location of templates. Then in application 'views.py' use 'render' to inject the object to template where you have the 'injection tag {{}}' in 'templates/app' directory.
+
+# 8. Create SQL Objects
+#   python manage.py migrate
+
+# 9. Register the changes to your application
+#   python manage.py makemigrations app_name
+
+# 10. Check model using admin
+#   python manage.py createsuperuser
+
+# 11. MTV procudures
+#   a. In the views.py file, import any models that we will need to use
+#   b. Use the view to query the model for data that we will need
+#   c. Pass results from the model to the template
+#   d. Edit the template so that it is ready to accept and display the data from the model
+#   e. Map a URL to the view
