@@ -113,9 +113,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-CELERY_BROKER_URL = 'amqp://rakib:123456@localhost:5672/rakibhost'
-CELERY_RESULT_BACKEND = 'amqp://rakib:123456@localhost:5672/rakibhost'
+# $ sudo rabbitmqctl add_user myuser mypassword
+# $ sudo rabbitmqctl add_vhost myvhost
+# $ sudo rabbitmqctl set_user_tags myuser mytag
+# $ sudo rabbitmqctl set_permissions -p myvhost myuser ".*" ".*" ".*"
+CELERY_BROKER_URL = 'amqp://myuser:mypassword@localhost:5672/myvhost'
+CELERY_RESULT_BACKEND = 'amqp://myuser:mypassword@localhost:5672/myvhost'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'

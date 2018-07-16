@@ -1,3 +1,16 @@
+# My local machine
+- Terminal 1:
+- (optional) Source virtual env: `source venv/bin/activate`
+- Start RabbitMQ: `sudo service rabbitmq-server start`
+- Terminal 2:
+- Source virtual env: `source venv/bin/activate`
+- Start server: `python3 manage.py runserver`
+- Terminal 3: Don't source virtualenv
+- Start Celery: `celery -A mycelery worker -l info` in project folder (where you can see manage.py)
+- Post `http://127.0.0.1:8000/generate-user/` then enter a number
+- Get `http://127.0.0.1:8000/get-task-info/?task_id=4cb062ca-ced6-4537-9f4e-d6fd0427a658` to check a task status
+
+
 # mycelery
 Django asynchronous task example using Celery and RabbitMQ.
 
