@@ -52,3 +52,26 @@ rd dir_name
 move here there
 :: Path, display the contents of the PATH variable
 path
+:: prompt, change prompt
+prompt :: keep default
+prompt heheheh :: change current to heheheh
+:: rename (mv)
+ren old new :: `move` also works
+:: start a program in a new window
+start notepad.exe
+start file.txt
+:: time
+echo %time%
+:: type (cat)
+type file.txt 
+:: display current volume
+vol
+:: display the attributes of the files in current directory
+attrib 
+attrib +r file.txt :: add read-only attribute to file
+attrib -a file.txt :: remove archived attribute from the file
+:: check disk
+chkdsk
+:: choice https://www.tutorialspoint.com/batch_script/batch_script_choice.htm
+choice /c ABC /m "What is your option A, B or C"
+
