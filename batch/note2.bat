@@ -32,3 +32,26 @@ ping 127.0.0.1
 shutdown
 :: Sort input from source file
 sort C:\tp\lists.txt
+:: Assign a drive letter to a local folder, displays current assignments
+Subst p: 
+:: Show configuration of a computer and its operating system
+systeminfo
+:: Ends one or more task
+Taskkill /im mspaint.exe
+:: List tasks including task name and process id(PID)
+tasklist
+:: copy file and dir in a more advanced way
+xcopy c:\lists.txt c:\tp\
+:: Display a tree of all sub-dir of the current dir to any level of revursion or depth
+tree
+:: The batch command lists the actual differences between two files
+fc lists.txt listsA.txt
+:: Create a new file
+notepad filename.txt
+:: Show and configures the projects of disk partitions
+Diskpart 
+:: Set the title displayed in the console window
+title "New Windows Title"
+:: Display the list of environment variables on the current system
+set
+

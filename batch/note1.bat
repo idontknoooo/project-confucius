@@ -74,4 +74,3 @@ attrib -a file.txt :: remove archived attribute from the file
 chkdsk
 :: choice https://www.tutorialspoint.com/batch_script/batch_script_choice.htm
 choice /c ABC /m "What is your option A, B or C"
-
